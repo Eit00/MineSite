@@ -1,0 +1,319 @@
+
+body{
+    margin:0;
+    padding:0;
+}
+hr{
+    border-color:#502AC5;
+    margin:0;
+    padding:0;
+}
+header{
+    width:100%;
+    height:1080px;
+    background-image: url("../images/intro_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar_main{
+    box-sizing:border-box;
+    height:120px;
+    width:100%;
+    text-align: center;
+    line-height:120px;
+    position:fixed;
+    background-image: url("../images/HEAD.png");
+}
+.navbar ul{
+    list-style-type: none;
+    box-sizing:border-box;
+}
+.navbar li{
+    box-sizing:border-box;
+    display: inline;
+    font-size:25px;
+    margin-left:20px;
+    margin-right:20px;
+}
+.navbar li a{
+    text-decoration: none;
+    color:#ebdec2;
+}
+.navbar li a:hover{
+    color:#d37f00;
+}
+.nav_button{
+    box-sizing:border-box;
+    position:absolute;
+    display:block;
+    text-decoration:none;
+    width:250px;
+    height:60px;
+    line-height: 60px;
+    color:black;
+    margin-top:45px;
+    margin-left:70%;
+    background: linear-gradient(180deg,rgba(253,211,148,.7) 26.83%,rgba(89,67,9,.7)),#ffc46b;
+    font-size: 20px;
+}
+.nav_button:hover{
+    background: linear-gradient(180deg,rgba(89,67,9,.7) 26.83%,rgba(253,211,148,.7)),#ffc46b;
+}
+.logo{
+    width:200px;
+    height:100px;
+    margin-left:250px;
+    margin-top:25px;
+}
+.intro{
+    width:100%;
+    margin:0;
+    padding:0;
+    height:960px;
+}
+.intro h1{
+    font-size:45px;
+    color:white;
+}
+.intro h3{
+    font-size:20px;
+    color: #ebdec2;
+}
+.intro button{
+    font-size: 30px;
+    width:350px;
+    height:60px;
+    background: linear-gradient(180deg,rgba(253,211,148,.7) 26.83%,rgba(89,67,9,.7)),#ffc46b;
+    border-width: 0;
+    transition: background 0.3s ease;
+}
+.intro button:hover{
+    font-size: 30px;
+    width:350px;
+    height:60px;
+    background: linear-gradient(180deg,rgba(89,67,9,.7) 26.83%,rgba(253,211,148,.7)),#ffc46b;
+    border-width: 0;
+}
+.intro_left{
+    padding-left:200px;
+    padding-top:100px;
+    float:left;
+    width:30%;
+}
+.intro_right{
+    padding-right:100px;
+    padding-top:150px;
+    float:right;
+    width:40%;
+}
+.fractions{
+    width:100%;
+    height:1500px;
+    background-color: aqua;
+}
+.fraction_1{
+    width:33%;
+    height: 900px;
+    background-color: bisque;
+    float:left;
+    background-image: url("../images/fraction_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    box-sizing: border-box;
+    padding:5%;
+}
+.fraction_1 h1{
+    font-size:35px;
+}
+.fraction_1 p{
+    color:#ebdec2;
+}
+.fraction_1 button{
+    background: linear-gradient(180deg,rgba(253,211,148,.7) 26.83%,rgba(89,67,9,.7)),#ffc46b;
+    border-width: 0;
+    font-size: 20px;
+    font-weight:500;
+    width:55%;
+    height:10%;
+}
+.fraction_2{
+    width:34%;
+    height: 900px;
+    background-color: gray;
+    float:left;
+    background-image: url("../images/fraction_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    box-sizing: border-box;
+    padding:5%;
+}
+.fraction_2 h1{
+    font-size:35px;
+}
+.fraction_2 button{
+    background: linear-gradient(180deg,rgba(253,211,148,.7) 26.83%,rgba(89,67,9,.7)),#ffc46b;
+    border-width: 0;
+    font-size: 20px;
+    font-weight:500;
+    width:55%;
+    height:10%;
+}
+.fraction_3{
+    width:33%;
+    height: 900px;
+    background-color: green;
+    float:left;
+    background-image: url("../images/fraction_3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    box-sizing: border-box;
+    padding:5%;
+}
+.fraction_3 h1{
+    font-size:35px;
+}
+.fraction_3 button{
+    background: linear-gradient(180deg,rgba(253,211,148,.7) 26.83%,rgba(89,67,9,.7)),#ffc46b;
+    border-width: 0;
+    font-size: 20px;
+    font-weight:500;
+    width:55%;
+    height:10%;
+}
+.fraction_4{
+    width:100%;
+    height: 600px;
+    background-color: blue;
+    float:left;
+}
+.races{
+    width:100%;
+    height:800px;
+    background-color: darkcyan;
+    background-image: url("../images/races_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+.race_panel{
+    width:100%;
+    height: 600px;
+}
+.race_bonus_info{
+    box-sizing:border-box;
+    width:33%;
+    height:600px;
+    float:left;
+}
+.race_info_box{
+    background-color:blue;
+    width:300px;
+    height:300px;
+    text-align: center;
+    line-height: 300px;
+    margin:25%;
+    position: relative;
+}
+.race_model{
+    width:34%;
+    height:600px;
+    float:left;
+    text-align: center;
+}
+.race_member_model{
+    width:250px;
+    height:400px;
+}
+.race_fraction{
+    width:33%;
+    height:600px;
+    float:left;
+    text-align: center;
+    box-sizing: border-box;
+}
+.race_choice{
+    width:100%;
+    text-align: center;
+    height:200px;
+}
+.race_choice ul{
+    list-style-type: none;
+}
+.race_choice li{
+    display: inline;
+    font-size:25px;
+    margin-left:20px;
+    margin-right:20px;
+}
+.pvp{
+    width:100%;
+    height:900px;
+    background-color:red;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+.pvp ul{
+    list-style-type: none;
+}
+.pvp li{
+    display: inline;
+    font-size:25px;
+    margin-left:20px;
+    margin-right:20px;
+}
+.pvp_event_panel{
+    width:100%;
+    height: 600px;
+}
+.image_catalog{
+    float:left;
+    width:50%;
+}
+.event_info{
+    float:left;
+    width:50%;
+}
+.pve{
+    width:100%;
+    height:900px;
+    background-color:aqua;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+.pve ul{
+    list-style-type: none;
+}
+.pve li{
+    display: inline;
+    font-size:25px;
+    margin-left:20px;
+    margin-right:20px;
+}
+.peculiarities{
+    width:100%;
+    height:900px;
+    background-color:brown;
+}
+.peculiarity_left{
+    width:30%;
+    height: 900px;
+    float:left;
+}
+.peculiarity_right{
+    width:70%;
+    height: 900px;
+    float:left;
+}
+.registration{
+    width:100%;
+    height:900px;
+    background-color:yellow;
+}
+.registration form{
+    width:40%;
+}

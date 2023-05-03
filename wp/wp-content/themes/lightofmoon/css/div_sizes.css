@@ -1,0 +1,62 @@
+.fractions {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.fraction {
+  display: inline-block;
+  float: left;
+  min-height: 120px;
+  background: green;
+  transition: transform .15s;
+}
+
+.fraction:hover {
+  transform: scaleX(1.2);
+  background: red;
+  z-index: 1;
+  transition: transform .5s;
+}
+
+.fraction.fraction_1 {
+  transform-origin: left;
+    width:33%;
+    height: 900px;
+    background-color: bisque;
+    float:left;
+    background-image: url("../images/fraction_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    box-sizing: border-box;
+    padding:5%;
+}
+
+.fraction.fraction_2 {
+  transform-origin: center;
+    width:34%;
+    height: 900px;
+    background-color: gray;
+    float:left;
+    background-image: url("../images/fraction_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    box-sizing: border-box;
+    padding:5%;
+}
+
+.fraction.fraction_3 {
+  transform-origin: right;
+    width:33%;
+    height: 900px;
+    background-color: green;
+    float:left;
+    background-image: url("../images/fraction_3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    box-sizing: border-box;
+    padding:5%;
+}

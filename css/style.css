@@ -74,27 +74,25 @@ header{
     height:1500px;
     background-color: aqua;
 }
-.fraction{
-    height: 900px; 
+.fraction_1{
     width:33%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-sizing: border-box;
-    color:white;
-    padding:5%;
-}
-.fraction .k{
+    height: 900px;
     background-color: bisque;
     float:left;
     background-image: url("../images/fraction_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    box-sizing: border-box;
+    padding:5%;
 }
-.fraction .k h1{
+.fraction_1 h1{
     font-size:35px;
 }
-.fraction .k p{
+.fraction_1 p{
     color:#ebdec2;
 }
-.fraction .k button{
+.fraction_1 button{
     background: linear-gradient(180deg,rgba(253,211,148,.7) 26.83%,rgba(89,67,9,.7)),#ffc46b;
     border-width: 0;
     font-size: 20px;
@@ -102,16 +100,22 @@ header{
     width:55%;
     height:10%;
 }
-.fraction .i{
+.fraction_2{
     width:34%;
+    height: 900px;
     background-color: gray;
     float:left;
     background-image: url("../images/fraction_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    box-sizing: border-box;
+    padding:5%;
 }
-.fraction .i h1{
+.fraction_2 h1{
     font-size:35px;
 }
-.fraction .i button{
+.fraction_2 button{
     background: linear-gradient(180deg,rgba(253,211,148,.7) 26.83%,rgba(89,67,9,.7)),#ffc46b;
     border-width: 0;
     font-size: 20px;
@@ -119,7 +123,7 @@ header{
     width:55%;
     height:10%;
 }
-.fraction .s{
+.fraction_3{
     width:33%;
     height: 900px;
     background-color: green;
@@ -131,10 +135,10 @@ header{
     box-sizing: border-box;
     padding:5%;
 }
-.fraction .s h1{
+.fraction_3 h1{
     font-size:35px;
 }
-.fraction .s button{
+.fraction_3 button{
     background: linear-gradient(180deg,rgba(253,211,148,.7) 26.83%,rgba(89,67,9,.7)),#ffc46b;
     border-width: 0;
     font-size: 20px;
